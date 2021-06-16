@@ -24,8 +24,8 @@ $PayPal = new angelleye\PayPal\Adaptive($PayPalConfig);
 
 // Prepare request arrays
 $GetAccessTokenFields = array(
-							'Token' => 'AAAAAAAVVExe6AWkB5ZG', 					// Required.  The request token from the response to RequestPermissions
-							'Verifier' => 'oL6Qp.fwlaI-Izt-MwFbRQ' 				// Required.  The verification code returned in the redirect from PayPal to the return URL.
+							'Token' => '', 					// Required.  The request token from the response to RequestPermissions
+							'Verifier' => '' 				// Required.  The verification code returned in the redirect from PayPal to the return URL.
 							);
 
 $PayPalRequestData = array('GetAccessTokenFields' => $GetAccessTokenFields);
